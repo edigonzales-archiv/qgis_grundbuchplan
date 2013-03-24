@@ -1,0 +1,347 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="Plan für das Grundbuch" version="1.9.0-Master">
+    <title>Plan für das Grundbuch</title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>608026.324485</xmin>
+            <ymin>251267.620757</ymin>
+            <xmax>608100.567159</xmax>
+            <ymax>251317.115873</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                <srsid>1919</srsid>
+                <srid>21781</srid>
+                <authid>EPSG:21781</authid>
+                <description>CH1903 / LV03</description>
+                <projectionacronym>somerc</projectionacronym>
+                <ellipsoidacronym>bessel</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="false">
+        <legendgroup open="false" checked="Qt::Unchecked" name="farbig">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_500_farbig" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_500___farbig_20121227194156881" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_1000_farbig" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_1000___farbig_20121227194253174" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_2000_farbig" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_2000___farbig_20121227194813479" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_5000_farbig" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_5000___farbig_20121227194949554" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="schwarz-weiss">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_500_sw" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_500___schwarz_weiss_20121227195610185" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_1000_sw" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_1000___schwarz_weiss_20121227195827709" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_2000_sw" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_2000___schwarz_weiss_20121227200100058" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="pfdgb_5000_sw" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Plan_für_das_Grundbuch__1_5000___schwarz_weiss_20121227200151646" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <projectlayers layercount="8">
+        <maplayer minimumScale="750" maximumScale="1499" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_1000___farbig_20121227194253174</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:1000%20/%20farbig)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb1000farbig</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_1000_farbig</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="750" maximumScale="1499" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_1000___schwarz_weiss_20121227195827709</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:1000%20/%20schwarz-weiss)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb1000sw</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_1000_sw</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="1500" maximumScale="2999" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_2000___farbig_20121227194813479</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:2000%20/%20farbig)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb2000farbig</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_2000_farbig</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="1500" maximumScale="2999" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_2000___schwarz_weiss_20121227200100058</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:2000%20/%20schwarz-weiss)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb2000sw</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_2000_sw</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="3000" maximumScale="6000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_5000___farbig_20121227194949554</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:5000%20/%20farbig)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb5000farbig</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_5000_farbig</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="3000" maximumScale="6000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_5000___schwarz_weiss_20121227200151646</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:5000%20/%20schwarz-weiss)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb5000sw</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_5000_sw</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="749" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_500___farbig_20121227194156881</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:500%20/%20farbig)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb500farbig</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_500_farbig</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="749" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>Plan_für_das_Grundbuch__1_500___schwarz_weiss_20121227195610185</id>
+            <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Plan%20f%C3%BCr%20das%20Grundbuch%20(1:500%20/%20schwarz-weiss)&amp;styles=&amp;url=http://www.sogeo.ch/wms/pfdgb500sw</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>pfdgb_500_sw</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +nadgrids=chenyx06etrs.gsb +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSContactPerson type="QString">Stefan Ziegler</WMSContactPerson>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <WMSServiceTitle type="QString">Plan für das Grundbuch</WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString">stefan.ziegler@bd.so.ch</WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <WMSCrsList type="QStringList">
+            <value>EPSG:21781</value>
+            <value>EPSG:2056</value>
+            <value>EPSG:4326</value>
+            <value>EPSG:32632</value>
+            <value>EPSG:3035</value>
+            <value>EPSG:900913</value>
+        </WMSCrsList>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:21781</ProjectCrs>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString">None</WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
+    </properties>
+</qgis>
